@@ -1,34 +1,31 @@
-# UFOs_Challenge
+# UFOs
 UFO Sightings with JavaScript
 
 
 
 ## Overview 
-The request from a client was to display a table organizing UFO data stored as a JavaScript array. The client wanted the ability to filter by multiple criteria creating a dynamic website.  The table was created using JavaScript, while HTML/CSS and Bootstrap were used to modify the aesthetics of the website. 
+This project is for the request from a client to display a table of UFO data stored as a JavaScript. The client wanted to filter by multiple criteria using dynamic website.  This table was created using JavaScript and subsequently HTML/CSS and Bootstrap were used for visualization.
 
 ## Results:
 ### Welcome to UFO Sightings! 
 
-Image
+<p align="center">
+  <img width="1000" src=https://github.com/sharifbhuiyan/UFOs/blob/main/static/images/nasa.png
+</p>
 
-### How the filters appear when first landing on the page:
-image
+### Searching page:
+<p align="center">
+  <img width="1000" src=https://github.com/sharifbhuiyan/UFOs/blob/main/static/images/search.png
+</p>
 
-### How the filters appear after being used: 
-By typing in the suggested placeholder elements as the filters, the result returns 2 matches.  Make sure to type everything in lower case letters and do not have spaces at the end of the text.  Click off the input box or press enter to initiate the filter.  To reset the filter criteria, click the UFO Sightings at the top left of the website. 
+### How the filters work: 
+If client type in the suggested placeholder elements as the filters and typing everything in lower case letters and click the input box or press enter to commit the filter.  Click the UFO Sightings to reset the filter.
 
-Image
 
 
 ## Summary: 
 
-### Drawback:
-The user must know specific dates, cities, or shapes to search.  Some shapes like "light" might not be as intuitive.  The filters require correct lower-case spellings and cannot include spaces at the end.  The city that was used, for example, could not be typed as "elcajon", “el cajon_”, or "El Cajon".  The only acceptable input would be "el cajon".
+The client has to be known  specific dates, cities, or shapes to search.  
 
-### Recommendations: 
-1. The next addition to the filters should be to add a trim function to catch spaces at the end of words as well as allow for upper and lower cases.
-image
 
-2. A filter on a date range might be preferable than a singular date.  Typing 1/2010 did not bring up all the dates from January as hoped.  Perhaps, the UFO Sightings occur more frequently in a specific month instead of a specific day within the month.  It is recommended to add in a filter function to include a date range as the filter to aid in the investigation of UFO Sightings. 
 
-image
