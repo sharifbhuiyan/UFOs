@@ -15,7 +15,7 @@ This project is for the request from a client to display a table of UFO data sto
 
 ### Searching page:
 <p align="center">
-  <img width="1000" src=https://github.com/sharifbhuiyan/UFOs/blob/main/static/images/search.png
+  <img width="1000" src=
 </p>
 
 ### How the filters work: 
